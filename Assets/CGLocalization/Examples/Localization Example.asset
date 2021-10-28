@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1722126095, guid: 885c1e561c81e324697bf93874ac0768, type: 3}
+  m_Name: Localization Example
+  m_EditorClassIdentifier: 
+  defaultLanguageIndex: 0
+  languages:
+  - m_name: English
+    keys:
+    - name: MainMenu/History
+      type: 0
+      stringValue: History
+      objectValue: {fileID: 0}
+      m_id: 53
+    - name: MainMenu/Play
+      type: 0
+      stringValue: Play
+      objectValue: {fileID: 0}
+      m_id: 59
+    - name: MainMenu/Multiplayer
+      type: 0
+      stringValue: Multiplayer
+      objectValue: {fileID: 0}
+      m_id: 1
+    - name: MainMenu/Options
+      type: 0
+      stringValue: Options
+      objectValue: {fileID: 0}
+      m_id: 54
+    - name: MainMenu/Exit
+      type: 0
+      stringValue: Exit
+      objectValue: {fileID: 0}
+      m_id: 55
+    - name: MainMenu/Options/Language
+      type: 0
+      stringValue: Language
+      objectValue: {fileID: 0}
+      m_id: 4
+    - name: MainMenu/Options/Quality
+      type: 0
+      stringValue: Graphics Quality
+      objectValue: {fileID: 0}
+      m_id: 5
+    - name: MainMenu/Options/Qualities
+      type: 0
+      stringValue: Low;Middle;Ultra
+      objectValue: {fileID: 0}
+      m_id: 30
+    - name: MainMenu/NoteVersion/Title
+      type: 0
+      stringValue: Version Note
+      objectValue: {fileID: 0}
+      m_id: 2
+    - name: MainMenu/NoteVersion/Info
+      type: 0
+      stringValue: This is a test version of notes with GC, thanks for watching this
+        demo.
+      objectValue: {fileID: 0}
+      m_id: 3
+    - name: Accept
+      type: 0
+      stringValue: Accept
+      objectValue: {fileID: 0}
+      m_id: 56
+    - name: Loading
+      type: 0
+      stringValue: Loading
+      objectValue: {fileID: 0}
+      m_id: 9
+    - name: Game/Message0
+      type: 0
+      stringValue: 'I would prefer the most unjust peace to the most just wars. '
+      objectValue: {fileID: 0}
+      m_id: 10
+    - name: Game/Message1
+      type: 0
+      stringValue: 'When the rich make war, it is the poor who die. '
+      objectValue: {fileID: 0}
+      m_id: 11
+    - name: Game/Message2
+      type: 0
+      stringValue: 'Man has to establish an end to war. '
+      objectValue: {fileID: 0}
+      m_id: 12
+    - name: Game/Message3
+      type: 0
+      stringValue: 'Wars will continue as long as the color of the skin remains more
+        important than that of the eyes. '
+      objectValue: {fileID: 0}
+      m_id: 13
+    - name: Game/Mision1
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: fee50b1d50b1c4049bcfc0a4a08e8bf3, type: 3}
+      m_id: 58
+    - name: SimpleMenu/EnterName
+      type: 0
+      stringValue: Enter name
+      objectValue: {fileID: 0}
+      m_id: 29
+    - name: SimpleMenu/Listen Hello
+      type: 0
+      stringValue: Listen Hello
+      objectValue: {fileID: 0}
+      m_id: 17
+    - name: SimpleMenu/Flag
+      type: 2
+      stringValue: 
+      objectValue: {fileID: 2800000, guid: 61dc0e8cc8e9b22499ea849b444fb28c, type: 3}
+      m_id: 28
+    - name: SimpleMenu/FlagSprite
+      type: 3
+      stringValue: 
+      objectValue: {fileID: 21300000, guid: 61dc0e8cc8e9b22499ea849b444fb28c, type: 3}
+      m_id: 16
+    - name: SimpleMenu/HelloAudio
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: f89b618718424614a80a3f8acd3be046, type: 3}
+      m_id: 14
+  - m_name: Spanish
+    keys:
+    - name: MainMenu/History
+      type: 0
+      stringValue: Modo Historia
+      objectValue: {fileID: 0}
+      m_id: 53
+    - name: MainMenu/Play
+      type: 0
+      stringValue: Jugar
+      objectValue: {fileID: 0}
+      m_id: 59
+    - name: MainMenu/Multiplayer
+      type: 0
+      stringValue: Multijugador
+      objectValue: {fileID: 0}
+      m_id: 1
+    - name: MainMenu/Options
+      type: 0
+      stringValue: Opciones
+      objectValue: {fileID: 0}
+      m_id: 54
+    - name: MainMenu/Exit
+      type: 0
+      stringValue: Salir
+      objectValue: {fileID: 0}
+      m_id: 55
+    - name: MainMenu/Options/Language
+      type: 0
+      stringValue: Idioma
+      objectValue: {fileID: 0}
+      m_id: 4
+    - name: MainMenu/Options/Quality
+      type: 0
+      stringValue: "Calidad de los gr\xE1ficos"
+      objectValue: {fileID: 0}
+      m_id: 5
+    - name: MainMenu/Options/Qualities
+      type: 0
+      stringValue: Bajo;Medio;Ultra
+      objectValue: {fileID: 0}
+      m_id: 30
+    - name: MainMenu/NoteVersion/Title
+      type: 0
+      stringValue: "Nota de versi\xF3n"
+      objectValue: {fileID: 0}
+      m_id: 2
+    - name: MainMenu/NoteVersion/Info
+      type: 0
+      stringValue: "Esta es una versi\xF3n de prueba de notas con GC, gracias por
+        ver esta demostraci\xF3n."
+      objectValue: {fileID: 0}
+      m_id: 3
+    - name: Accept
+      type: 0
+      stringValue: Aceptar
+      objectValue: {fileID: 0}
+      m_id: 56
+    - name: Loading
+      type: 0
+      stringValue: Cargando
+      objectValue: {fileID: 0}
+      m_id: 9
+    - name: Game/Message0
+      type: 0
+      stringValue: "Preferir\xEDa la paz m\xE1s injusta a la m\xE1s justa de las guerras.
+        Cicer\xF3n"
+      objectValue: {fileID: 0}
+      m_id: 10
+    - name: Game/Message1
+      type: 0
+      stringValue: Cuando los ricos hacen la guerra, son los pobres los que mueren.
+        Jean Paul Sartre
+      objectValue: {fileID: 0}
+      m_id: 11
+    - name: Game/Message2
+      type: 0
+      stringValue: "El hombre tiene que establecer un final para la guerra. Si no,
+        \xE9sta establecer\xE1 un fin para la humanidad. John Fitzgerald Kennedy"
+      objectValue: {fileID: 0}
+      m_id: 12
+    - name: Game/Message3
+      type: 0
+      stringValue: "Las guerras seguir\xE1n mientras el color de la piel siga siendo
+        m\xE1s importante que el de los ojos. Bob Marley"
+      objectValue: {fileID: 0}
+      m_id: 13
+    - name: Game/Mision1
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: edf14187788eea8489cd51c3c218734c, type: 3}
+      m_id: 58
+    - name: SimpleMenu/EnterName
+      type: 0
+      stringValue: Ingrese su nombre
+      objectValue: {fileID: 0}
+      m_id: 29
+    - name: SimpleMenu/Listen Hello
+      type: 0
+      stringValue: Escuchar Hola
+      objectValue: {fileID: 0}
+      m_id: 17
+    - name: SimpleMenu/Flag
+      type: 2
+      stringValue: 
+      objectValue: {fileID: 2800000, guid: daa63dea5a50b084db52be984bdea115, type: 3}
+      m_id: 28
+    - name: SimpleMenu/FlagSprite
+      type: 3
+      stringValue: 
+      objectValue: {fileID: 21300000, guid: daa63dea5a50b084db52be984bdea115, type: 3}
+      m_id: 16
+    - name: SimpleMenu/HelloAudio
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: ba51aeecf9454954b9b55f8e276bbb1e, type: 3}
+      m_id: 14
+  - m_name: French
+    keys:
+    - name: MainMenu/History
+      type: 0
+      stringValue: Histoire
+      objectValue: {fileID: 0}
+      m_id: 53
+    - name: MainMenu/Play
+      type: 0
+      stringValue: Jouer
+      objectValue: {fileID: 0}
+      m_id: 59
+    - name: MainMenu/Multiplayer
+      type: 0
+      stringValue: Multijoueur
+      objectValue: {fileID: 0}
+      m_id: 1
+    - name: MainMenu/Options
+      type: 0
+      stringValue: Options
+      objectValue: {fileID: 0}
+      m_id: 54
+    - name: MainMenu/Exit
+      type: 0
+      stringValue: Sortie
+      objectValue: {fileID: 0}
+      m_id: 55
+    - name: MainMenu/Options/Language
+      type: 0
+      stringValue: La langue
+      objectValue: {fileID: 0}
+      m_id: 4
+    - name: MainMenu/Options/Quality
+      type: 0
+      stringValue: "Qualit\xE9 graphique"
+      objectValue: {fileID: 0}
+      m_id: 5
+    - name: MainMenu/Options/Qualities
+      type: 0
+      stringValue: Faible;Milieu;Ultra
+      objectValue: {fileID: 0}
+      m_id: 30
+    - name: MainMenu/NoteVersion/Title
+      type: 0
+      stringValue: Note sur la version
+      objectValue: {fileID: 0}
+      m_id: 2
+    - name: MainMenu/NoteVersion/Info
+      type: 0
+      stringValue: "Ceci est une version test de notes avec GC, merci d'avoir regard\xE9
+        cette d\xE9mo."
+      objectValue: {fileID: 0}
+      m_id: 3
+    - name: Accept
+      type: 0
+      stringValue: Acceptez
+      objectValue: {fileID: 0}
+      m_id: 56
+    - name: Loading
+      type: 0
+      stringValue: Chargement
+      objectValue: {fileID: 0}
+      m_id: 9
+    - name: Game/Message0
+      type: 0
+      stringValue: "Je pr\xE9f\xE9rerais la paix la plus injuste aux guerres les plus
+        justes."
+      objectValue: {fileID: 0}
+      m_id: 10
+    - name: Game/Message1
+      type: 0
+      stringValue: Quand les riches font la guerre, ce sont les pauvres qui meurent.
+      objectValue: {fileID: 0}
+      m_id: 11
+    - name: Game/Message2
+      type: 0
+      stringValue: "L'homme doit mettre fin \xE0 la guerre."
+      objectValue: {fileID: 0}
+      m_id: 12
+    - name: Game/Message3
+      type: 0
+      stringValue: Les guerres se poursuivront tant que la couleur de la peau reste
+        plus importante que celle des yeux.
+      objectValue: {fileID: 0}
+      m_id: 13
+    - name: Game/Mision1
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: fae6396ad86e88046a6b3a3c0244fac4, type: 3}
+      m_id: 58
+    - name: SimpleMenu/EnterName
+      type: 0
+      stringValue: Entrez le nom
+      objectValue: {fileID: 0}
+      m_id: 29
+    - name: SimpleMenu/Listen Hello
+      type: 0
+      stringValue: "\xC9coute Salut"
+      objectValue: {fileID: 0}
+      m_id: 17
+    - name: SimpleMenu/Flag
+      type: 2
+      stringValue: 
+      objectValue: {fileID: 2800000, guid: c759f3923de16b34398cbcc71d34575b, type: 3}
+      m_id: 28
+    - name: SimpleMenu/FlagSprite
+      type: 3
+      stringValue: 
+      objectValue: {fileID: 21300000, guid: c759f3923de16b34398cbcc71d34575b, type: 3}
+      m_id: 16
+    - name: SimpleMenu/HelloAudio
+      type: 1
+      stringValue: 
+      objectValue: {fileID: 8300000, guid: 66e1bd4a54e067b44b28a00aa1833586, type: 3}
+      m_id: 14
